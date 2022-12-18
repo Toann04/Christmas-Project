@@ -1,0 +1,41 @@
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    padding: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+/* form h1{
+    position: relative;
+    align-items: center;
+} */
+.username-input input{
+    /* background-color: whitesmoke; */
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+.password-input input{
+    /* background-color: whitesmoke; */
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+

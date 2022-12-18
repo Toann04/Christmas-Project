@@ -1,0 +1,75 @@
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* .title{
+    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
+} */
+
+.btn-letsdecorate {
+    color: white;
+    background-color: #146B3A;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-letsdecorate:hover {
+    background-color:#EA4630;
+    transition: 0.3s;
+}
+.products{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    /* background-color: grey; */
+}
+.item{
+    background-color: #146B3A;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-buynow {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-buynow:hover {
+    background-color: grey;
+    transition: 0.3s;
+}
+.ads{
+    color: white;
+    background: radial-gradient(white, #146B3A);
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+.text{
+    position: relative;
+    align-items: center;
+
+    justify-content: center;
+}
+.btn-ads {
+    color: whitesmoke;
+    background-color: #146B3A;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-ads:hover {
+    color: black;
+    background-color: #BB2528;
+    transition: 0.3s;
+}
