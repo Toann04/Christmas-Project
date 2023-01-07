@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../CSS/men.css">
+    <link rel="stylesheet" href="../CSS/decoration.css">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/footer.css">
 
@@ -9,16 +9,16 @@
   <body>
     <div class="navbar">
       <div class="logo">
-        <a href="../HTML/homepage.html"><img src="../IMG/sportlogo.png" width="50px"></a>
+        <a href="../HTML/homepage.html"><img src="../IMG/santa.png" width="50px"></a>
       </div>
       <!--  -->
       <nav>
         <ul>
           <li><a class="nav-list" href="../HTML/home.html">Home</a></li>
-          <li><a class="nav-list" href="../HTML/men.html">Men</a></li>
+          <li><a class="nav-list" href="../HTML/decoration.html">Decoration</a></li>
           <li><a class="nav-list" href="#">Women</a></li>
           <li><a class="nav-list" href="#">Kids</a></li>
-          <li><a class="nav-list" href="#">Account</a></li>
+          <li><a class="nav-list" href="../HTML/login.html">Account</a></li>
         </ul>
       </nav>
       <!--  -->
@@ -32,22 +32,117 @@
     <br>
     <!--  -->
     <div>
-      <center><img src="../IMG/sportlogo.png" width="1000px">
+      <center><img src="../IMG/merrychristmas.png" width="1000px">
       <div class="info">
-          <p>Early Access: National Team Kits</p>
-          <strong><h1 class="title">FOOTBALL IS NEVER DONE.</h1></strong>
-          <p>It’s just getting started. Kick off your journey with early access to home and away national team jerseys.</p>
-          <div>
-              <a href="../HTML/home.html"><button class="btn-gearup">Gear Up</button></a>
-          </div>
+          <strong><h1 class="">Christmas Is All Around Us.</h1></strong>
+          <p>The best way to spread Christmas cheer is singing loud for all to hear.</p>
+          <br>
       </div>
       </center>
     </div>
     <!--  -->
-    <!-- <div class="products">
-      <div class="item-1">
-        <img src="../IMG/sportlogo.png" alt="">
-        <div><p></p></div>
+    <br><br><br>
+    <!--  -->
+    <center><h2 class="title">Christmas Tree</h2></center>
+    <div class="products">
+      <div id="tree-1" class="product tree tree-1">
+          <img id="img" src="../IMG/christmastree1.png" width="400px" alt="">
+          <p id="name-1">Chrismas Tree 1</p>
+          <p id="price-1">Price: 10$</p>
+          <br>
+          <button class="btn-buynow" onclick = "treebuynow1()">Buy Now</button>
+      </div>
+      <div id="tree-2" class="product tree tree-2">
+          <img id="img" src="../IMG/christmastree2.png" width="400px" alt="">
+          <p id="name-2">Chrismas Tree 2</p>
+          <p id="price-2">Price: 20$</p>
+          <br>
+          <button class="btn-buynow" onclick = "treebuynow2()">Buy Now</button>
+      </div>
+      <div id="tree-3" class="product tree tree-3">
+        <img id="img" src="../IMG/christmastree3.png" width="400px" alt="">
+        <p id="name-3">Chrismas Tree 3</p>
+        <p id="price-3">Price: 15$</p>
+        <br>
+        <button class="btn-buynow" onclick = "treebuynow3()">Buy Now</button>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <center><h2 class="title">Christmas Garland</h2></center>
+    <div class="products">
+      <div id="garland-1" class="product garland garland-1">
+          <img id="img" src="../IMG/christmasgarland1.png" width="400px" alt="">
+          <p id="name-1">Chrismas Garland 1</p>
+          <p id="price-1">Price: 10$</p>
+          <br>
+          <button class="btn-buynow" onclick = "garlandbuynow1()">Buy Now</button>
+      </div>
+      <div id="garland-2" class="product garland garland-2">
+          <img id="img" src="../IMG/christmasgarland2.png" width="400px" alt="">
+          <p id="name-2">Chrismas Garland 2</p>
+          <p id="price-2">Price: 20$</p>
+          <br>
+          <button class="btn-buynow" onclick = "garlandbuynow2()">Buy Now</button>
+      </div>
+      <div id="garland-3" class="product garland garland-3">
+        <img id="img" src="../IMG/christmasgarland3.png" width="400px" alt="">
+        <p id="name-3">Chrismas Garland 3</p>
+        <p id="price-3">Price: 15$</p>
+        <br>
+        <button class="btn-buynow" onclick = "garlandbuynow3()">Buy Now</button>
+      </div>
+    </div>
+  <!-- ------------------------------------------------------------------------------------------------ -->
+  <center><h2 class="title">Christmas Sock</h2></center>
+    <div class="products">
+      <div id="sock-1" class="product garland garland-1">
+          <img id="img" src="../IMG/christmassock1.png" width="400px" alt="">
+          <p id="name-1">Chrismas Sock 1</p>
+          <p id="price-1">Price: 10$</p>
+          <br>
+          <button class="btn-buynow" onclick = "sockbuynow1()">Buy Now</button>
+      </div>
+      <div id="sock-2" class="product garland garland-2">
+          <img id="img" src="../IMG/christmassock2.png" width="400px" alt="">
+          <p id="name-2">Chrismas Sock 2</p>
+          <p id="price-2">Price: 20$</p>
+          <br>
+          <button class="btn-buynow" onclick = "sockbuynow2()">Buy Now</button>
+      </div>
+      <div id="sock-3" class="product garland garland-3">
+        <img id="img" src="../IMG/christmassock3.png" width="400px" alt="">
+        <p id="name-3">Chrismas Sock 3</p>
+        <p id="price-3">Price: 15$</p>
+        <br>
+        <button class="btn-buynow" onclick = "sockbuynow3()">Buy Now</button>
+      </div>
+    </div>
+    <!-- <div class="container">
+      <div class="small-container">
+        <div class="row">
+          <div class="column">
+            <img src="../IMG/christmasgarland1.png">
+            <center>
+              <h1>Christmas Garland</h1>
+              <p>Price: 10$</p>
+              <button>Buy now!</button>
+            </center>
+          </div>
+          <div class="column">
+            <img src="../IMG/christmasgarland2.png">
+            <center>
+            <h1>Christmas Garland</h1>
+            <p>Price: 20$</p>
+            </center>
+          </div>
+          <div class="column">
+            <img src="../IMG/christmasgarland3.png">
+            <center>
+            <h1>Christmas Garland</h1>
+            <p>Price: 15$</p>
+            </center>
+          </div>
+        </div>
       </div>
     </div> -->
     <!-- FOOTER -->
@@ -95,4 +190,5 @@
       </div>
   </div>
   </body>
+  <script src="../JS/onClick.js"></script>
   </html>
