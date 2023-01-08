@@ -2,66 +2,222 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-  <button id="sign-out" class="submit" type="button" onclick="sign()">Sign Out</button>
+    <div class="navbar">
+        <div class="logo">
+            <a href="../html/homepage.html"><img src="../IMG /santa.png" width="50px"></a>
+        </div>
+        <!--  -->
+        <nav>
+            <ul>
+                <li><a class="nav-list" href="home.html">Home</a></li>
+                <li><a class="nav-list" href="men.html">Men</a></li>
+                <li><a class="nav-list" href="#">Women</a></li>
+                <li><a class="nav-list" href="#">Kids</a></li>
+                <li><a class="nav-list" href="html/">Account</a></li>
+            </ul>
+        </nav>
+        <!--  -->
+        <div class="left">
+            <div class="login">
+                <button class="loginbtn" style="width:auto;" id="logout">LogOut</button>
+                <a class="top-item1 abc" href="userinfo.html" id="userinfo">User Info</a>
+            </div>
+            <div class="shopping-cart">
+                <a href="#"><img src="../IMG /Shopping-Cart-Icon.webp" width="30px"></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <center><img src="../IMG /merrychristmas.png" width="1000px">
+            <div class="info">
+                <p class="info-content">Sunday, December 25</p>
+                <br>
+                <strong>
+                    <h1 class="title">Christmas Is All Around</h1>
+                </strong>
+                <br>
+                <p>Good morning everyone! As we all know Christmas is around the corner and everyone is busy preparing
+                    it to be the best one of their lives. </p>
+                <br>
+                <div>
+                    <a href="../html/home.html"><button class="btn-letsdecorate">Let's Decorate</button></a>
+                </div>
+            </div>
+        </center>
+    </div>
+    <!--  -->
+    <br>
+    <br>
+    <br>
+    <!--  -->
+    <div class="ads">
+        <div>
+            <img src="../IMG/santa.png" alt="">
+        </div>
+        <div class="text">
+            <br><br>
+            <h1>Our new products</h1>
+            <br><br><br>
+            <h2>CLOCK-CLOCK</h2>
+            <p>Description: Blah BLah Blah</p>
+            <p>Price: 1000$</p>
+            <p></p>
+            <br><br><br>
+            <a href="#"><button class="btn-ads">Buy Now</button></a>
+        </div>
+    </div>
+    <!--  -->
+    <br>
+    <br>
+    <br>
+    <!--  -->
+    <div class="products">
+        <div id="item" class="item item-1">
+            <img id="img" src="../IMG /chrismastree.png" alt="">
+            <h2 id="name">Chrismas Tree</h2>
+            <h2 id="price">Price: 100$</h2>
+            <br>
+            <a href="#"><button class="btn-buynow" onclick=buynow()>Buy Now</button></a>
+        </div>
+        <div id="item" class="item item-1">
+            <img src="../IMG /ball.png" alt="">
+            <h2>Chrismas Decorative Items</h2>
+            <h2>Price: 1$</h2>
+            <br>
+            <a href="#"><button class="btn-buynow" onclick="buynow()">Buy Now</button></a>
+        </div>
+    </div>
+    <!--  -->
+    <br><br><br>
+    <!--  -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>FIND A STORE</h4>
+                    <ul>
+                        <li><a href="">BECOME A MEMBER</a></li>
+                        <li><a href="">SIGN UP FOR EMAIL</a></li>
+                        <li><a href="">SIGN UP FOR FACEBOOK</a></li>
+                        <li><a href="">SEND US FEEDBACK</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>GET HELP</h4>
+                    <ul>
+                        <li><a href="">Order Status</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Returns</a></li>
+                        <li><a href="">Payment Options</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ABOUT NIKE</h4>
+                    <ul>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Investors</a></li>
+                        <li><a href="">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <div class="social-links">
+                        <a href="#"><img src="../IMG /facebook-icon.png" width="30px"></a>
+                        <a href="#"><img src="../IMG /instagram-icon.png" width="30px"></a>
+                        <a href="#"><img src="../IMG /twitter-icon.webp" width="30px"></a>
+                        <a href="#"><img src="../IMG /youtube-icon.png" width="30px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
 </body>
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
-  import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-auth.js";
 
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDb8_O48CLIChwtLWhqBSl7nUUlGbSUwcw",
-    authDomain: "jsa22-1034f.firebaseapp.com",
-    projectId: "jsa22-1034f",
-    storageBucket: "jsa22-1034f.appspot.com",
-    messagingSenderId: "592274584586",
-    appId: "1:592274584586:web:332f46b93186db5af79bf3",
-    measurementId: "G-E63SX88C9M"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-  const auth = getAuth();
-  document.getElementById('sign-out').addEventListener('click', test3)
-  function test3() {
-    signOut(auth).then(() => {
-      // Sign-out successful.
-      window.location.href = 'index.html'
-    }).catch((error) => {
-      // An error happened.
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+<script>$(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            }
+            else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 500)
+        });
     });
-  }
+</script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
+    import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-auth.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyDb8_O48CLIChwtLWhqBSl7nUUlGbSUwcw",
+        authDomain: "jsa22-1034f.firebaseapp.com",
+        projectId: "jsa22-1034f",
+        storageBucket: "jsa22-1034f.appspot.com",
+        messagingSenderId: "592274584586",
+        appId: "1:592274584586:web:332f46b93186db5af79bf3",
+        measurementId: "G-E63SX88C9M"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth();
+    document.getElementById('logout').addEventListener('click', logout)
+    function logout() {
+        signOut(auth).then(() => {
+            // Sign-out successful.
+            window.location.href = 'login.html'
+        }).catch((error) => {
+            // An error happened.
+        });
+    }
 
     onAuthStateChanged(auth, (user) => {
-    if (user) {
-      // User is signed in, see docs for a list of available properties
-      // https://firebase.google.com/docs/reference/js/firebase.User
-      const uid = user.uid;
-      window.location.href = 'home.html'
-      // ...
-    } else {
-      // User is signed out
-      // ...
-      window.location.href = 'index.html'
-    }
-  });
+        if (user) {
+            // User is signed in, see docs for a list of available properties
+            // https://firebase.google.com/docs/reference/js/firebase.User
+            const uid = user.uid;
+            // window.location.href = '../html/index.html'
+            // ...
+        } else {
+            // User is signed out
+            // ...
+            window.location.href = 'login.html'
+        }
+    });
 
 
-  
+
 </script>
-
 </html>

@@ -21,7 +21,7 @@
         <div class="form">
             <div class="form2">
                 <i class="fa-solid fa-sleigh" style="width:50px"></i>
-                <h2>Sign In</h2>
+                <h2>Your Account</h2>
                 <i class="fa-solid fa-gifts" style="width:50px"></i>
             </div>
             <label id="email2">
@@ -69,7 +69,7 @@
         </div> -->
     </div>
 
-
+</body>
     <!-- <script src="./index.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module">
@@ -151,7 +151,7 @@
                     // Signed in 
                     const user = userCredential.user;
                     // ...
-                    window.location.href = "../html/index.html"
+                    window.location.href = "homepage.html"
                 })
                 .catch((error) => {
                     const errorCode = error.code;
@@ -160,3 +160,4 @@
                 });
         }
     </script>
+</html>
